@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap_Homework_Contact</title>
+    <title>Bootstrap_Homework_Index</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -12,12 +12,10 @@
     />
     <link rel="stylesheet" href="./Assets/style.css" />
   </head>
-  <body style="background-color: rgb(2, 24, 83)">
+
+  <body style="background-color: white" class="d-flex flex-column">
     <!-- Start of the Navbar -->
-    <nav
-      class="navbar navbar-expand-lg navbar-light"
-      style="background-color: white"
-    >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <span class="navbar-brand mb-1 h1">Jason Richards</span>
       <button
         class="navbar-toggler"
@@ -45,5 +43,74 @@
       </div>
     </nav>
     <!-- End Nav -->
+
+    <!-- Start of Content Container -->
+    <div id="page-content">
+      <div class="p-5 container text-center" class="top-buffer">
+        <!-- Start of Row 1 -->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card mt-2">
+              <div class="card-body">
+                <h1 class="border-bottom border-dark">Contact</h1>
+                <div class="row">
+                  <div class="col-md-12 text-left">
+                    <form>
+                      <div class="form-group">
+                        <label for="InputName1">Name</label>
+                        <input
+                          type="name"
+                          class="form-control"
+                          id="InputName1"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label for="InputEmail1">Email address</label>
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="InputEmail1"
+                          aria-describedby="emailHelp"
+                          placeholder="name@example.com"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label for="Message1">Message</label>
+                        <textarea
+                          class="form-control"
+                          id="Message1"
+                          rows="3"
+                        ></textarea>
+                      </div>
+                      <div class="form-group form-check">
+                        <input
+                          type="checkbox"
+                          class="form-check-input"
+                          id="Subscribe1"
+                        />
+                        <label class="form-check-label" for="Subscribe1"
+                          >Subscribe</label
+                        >
+                      </div>
+                      <button type="submit" class="btn btn-primary">
+                        Submit
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End of Row 1 -->
+      </div>
+    </div>
+    <!-- Start of Footer -->
+    <footer id="sticky-footer" class="py-4 bg-dark text-white">
+      <div class="container text-center">
+        <small>Copyright &copy; 2020</small>
+      </div>
+    </footer>
+    <!-- End of Footer -->
   </body>
 </html>

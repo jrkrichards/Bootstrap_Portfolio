@@ -22,7 +22,7 @@ Contact Page:
 ### Pages Responsive:
 
 <p float="left">
-  <img src="./Assets/Images/Home_Page_sm.PNG" width="33%" />
-  <img src="./Assets/Images/Portfolio_Page_1_sm.PNG" width="33%" /> 
-  <img src="./Assets/Images/Contact_Page_sm.PNG" width="33%" />
+  <img src="./Assets/Images/Home_Page_sm.PNG" width="32%" />
+  <img src="./Assets/Images/Portfolio_Page_1_sm.PNG" width="32%" /> 
+  <img src="./Assets/Images/Contact_Page_sm.PNG" width="32%" />
 </p>

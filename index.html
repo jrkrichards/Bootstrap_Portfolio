@@ -3,20 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap_Homework_Index</title>
+    <title>Portfolio_About</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    >
     <link rel="stylesheet" href="./Assets/style.css" />
+    <link rel="icon" href="./Assets/Images/JR_logo.svg"/>
   </head>
 
   <body style="background-color: white" class="d-flex flex-column">
     <!-- Start of the Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <span class="navbar-brand mb-1 h1">Jason Richards</span>
+      <span class="navbar-brand mb-1 h1">
+        <img
+            src="./Assets/Images/JR_logo.svg"
+            alt="Placeholder"
+            class=""
+        />
+      </span>
       <button
         class="navbar-toggler"
         type="button"
@@ -28,13 +39,13 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="nav navbar-nav ml-auto">
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav ml-auto" id="navbarSupportedContent">
           <li class="nav-item">
             <a class="nav-link" href="./index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            <a class="nav-link" href="./portfolio.html">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./contact.html">Contact</a>
@@ -52,46 +63,29 @@
           <div class="col-md-12">
             <div class="card mt-2">
               <div class="card-body">
-                <h1 class="border-bottom border-dark">About Me</h1>
-                <div class="row">
-                  <summary class="col-md-12 text-left">
+                <h1 class="border-bottom border-dark">Welcome!</h1>
+                <div class="row clearfix">
+                  <summary class="col-md-12">
+                    
                     <img
-                      src="http://placehold.it/250x250"
-                      alt="Placeholder"
-                      class="img-thumbnail mx-3"
-                      align="left"
-                    />
-                    <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Vero repudiandae soluta animi magni, amet voluptatibus
-                      expedita! Cumque consectetur facilis porro id, magnam
-                      harum, ipsa dolore totam in, laborum mollitia vero! Lorem
-                      ipsum dolor sit amet, consectetur adipisicing elit.
-                      Repellendus inventore accusantium corrupti hic neque
-                      minima esse velit sit? Id non, ut odit est dolore
-                      repudiandae. Fugit explicabo ad dolor debitis? Lorem ipsum
-                      dolor sit amet consectetur adipisicing elit. Facere nemo
-                      provident qui at maiores? Impedit minus optio, laborum
-                      molestiae repellendus error quos. Temporibus eius
-                      explicabo eos numquam, fugiat illum nostrum. Lorem ipsum
-                      dolor sit amet, consectetur adipisicing elit. Incidunt,
-                      fuga tempora? Voluptatum magni labore non sequi! Vitae
-                      iusto, quos expedita voluptatum sapiente explicabo
-                      repellendus. Qui quod similique obcaecati autem explicabo.
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Enim, sed. Rerum, placeat. Nemo accusantium obcaecati
-                      consequuntur voluptatem natus consequatur molestias esse
-                      quam quae placeat, a dolore ea porro eius dicta? Lorem
-                      ipsum dolor sit amet consectetur adipisicing elit. Iure
-                      suscipit deleniti officia quae voluptatem voluptatibus,
-                      eveniet modi dolorum non, neque omnis minima repellendus
-                      ratione, est cum! Quod voluptatum explicabo perspiciatis!
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Cumque illum velit dolores quia voluptate amet natus eum
-                      ratione, itaque labore sit, aliquam accusamus nisi quo non
-                      similique? Nemo, sint asperiores?
+                    src="./Assets/Images/Self at Zion (2).JPG"
+                    alt="Placeholder"
+                    class="img-thumbnail img-fluid float-left mr-3"
+                    style="width: 200px; height: 200px;"                    
+                    />                                          
+                    <p class="text-left">
+                      My name is Jason. I was born and raised in Honolulu, Hawaii. I left the islands to pursue a career in business and to see what life outside of the islands was like. I received my bachelors and masters in Accounting from the University of Nevada, Las Vegas and had the opportunity to work with PricewaterhouseCoopers (PwC) after college. While at PwC I obtained a bredth of knowledge and experience in accounting, finance, business processes, controls, and project management while working on public and private clients in the utility, gaming, travel, and manufacturing industries. During this time I was exposed to many technologies and became intrigued by how these technologies could help solve problems while making our everyday work more efficient and effective. This curiosity led me to seek more knowledge around coding specific to technologies that help with data analysis (Python & Tableau) as well as web development, which is why I enrolled in the bootcamp at UC Berkeley. During the bootcamp I have obtained knowledge that I can implement in my current Finance role to help drive better story telling around the business and implement more cross-functional process automation through the use of systems.   
                     </p>
-                  </summary>
+                    <a href="./Assets/Jason Richards' Resume_12122020.pdf" download="Jason Richards' Resume">
+                      <button type="button" class="btn btn-git text-center"><i class="fas fa-user-tie pr-1 text-center"></i>Resume</button>
+                    </a>
+                    <a href="./portfolio.html">
+                      <button type="button" class="btn btn-li text-center"><i class="fas fa-code pr-1 text-center"></i>Projects</button>
+                    </a>
+                    <a href="./contact.html">
+                      <button type="button" class="btn btn-li text-center"><i class="fas fa-at pr-1 text-center"></i>Contact</button>
+                    </a>                    
+                  </summary>              
                 </div>
               </div>
             </div>
@@ -103,6 +97,15 @@
     <!-- Start of Footer -->
     <footer id="sticky-footer" class="py-4 bg-dark text-white">
       <div class="container text-center">
+        <small>
+          <a href="https://github.com/jrkrichards">
+            <button type="button" class="btn btn-git text-center text-white"><i class="fab fa-github pr-1 text-center text-white"></i> Github</button>
+          </a>
+          <a href="https://www.linkedin.com/in/jrkrichards/">
+            <button type="button" class="btn btn-li text-center text-white"><i class="fab fa-linkedin-in pr-1 text-center text-white"></i> Linkedin</button>
+          </a>
+          <br>
+        </small>            
         <small>Copyright &copy; 2020</small>
       </div>
     </footer>

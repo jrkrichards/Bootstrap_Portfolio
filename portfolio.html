@@ -3,20 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap_Homework_Index</title>
+    <title>Portfolio_Projects</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    >
     <link rel="stylesheet" href="./Assets/style.css" />
+    <link rel="icon" href="./Assets/Images/JR_logo.svg"/>
   </head>
 
   <body style="background-color: white" class="d-flex flex-column">
     <!-- Start of the Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <span class="navbar-brand mb-1 h1">Jason Richards</span>
+      <span class="navbar-brand mb-1 h1">
+        <img
+            src="./Assets/Images/JR_logo.svg"
+            alt="Placeholder"
+            class=""
+        />
+      </span>
       <button
         class="navbar-toggler"
         type="button"
@@ -28,13 +39,13 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="nav navbar-nav ml-auto">
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav ml-auto" id="navbarSupportedContent">
           <li class="nav-item">
             <a class="nav-link" href="./index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            <a class="nav-link" href="./portfolio.html">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./contact.html">Contact</a>
@@ -52,83 +63,88 @@
           <div class="col-md-12">
             <div class="card mt-2">
               <div class="card-body">
-                <h1 class="border-bottom border-dark">Portfolio</h1>
+                <h1 class="border-bottom border-dark">Projects</h1>
                 
                 <!-- Start of Image Row 1 -->
-                <section class="row my-5">
-                  <aside class="col-md-4">
+                <section class="row my-5">                  
+                  <aside class="col-md-6">
+                    <h6 class="text-center">
+                      <a href="https://jrkrichards.github.io/Food_Application/">
+                        Recipe Generator
+                      </a>
+                    </h6>
                     <img
-                      src="http://placehold.it/250x250"
+                      src="./Assets/Images/home_page_demo.gif"
                       alt="Placeholder"
-                      class="img-thumbnail"
+                      class="img-thumbnail img-fluid img-responsive my-2"
                     />
+                    <p class="text-left">
+                      Recipe Pal was created to help users not only find delicious recipes but to also be able to see what ingredients are required to cook the recipe and what grocery stores are near by. To access the repo click on the github logo below.
+                    </p>
+                    <a href="https://github.com/jrkrichards/Food_Application">
+                      <button type="button" class="btn btn-git text-center"><i class="fab fa-github pr-1 text-center"></i></button>
+                    </a>
                   </aside>
-                  <aside class="col-md-4">
+                  <aside class="col-md-6">
+                    <h6 class="text-center">
+                      <a href="https://jrkrichards.github.io/Weather_Application/">
+                        Weather Application
+                      </a>
+                    </h6>
                     <img
-                      src="http://placehold.it/250x250"
+                      src="./Assets/Images/WA_Start_Page.PNG"
                       alt="Placeholder"
-                      class="img-thumbnail"
+                      class="img-thumbnail img-fluid img-responsive my-2"
                     />
-                  </aside>
-                  <aside class="col-md-4">
-                    <img
-                      src="http://placehold.it/250x250"
-                      alt="Placeholder"
-                      class="img-thumbnail"
-                    />
+                    <p class="text-left">
+                      The Weather Application was developed to allow users to quickly see what the weather is going to be in desired cities. It also displays previously searched cities to make it easier for the user to see the weather of places previously visited. To access the repo click on the github logo below. 
+                    </p>                    
+                    <a href="https://github.com/jrkrichards/Weather_Application">
+                      <button type="button" class="btn btn-git text-center"><i class="fab fa-github pr-1 text-center"></i></button>
+                    </a>
                   </aside>
               </section>
               <!-- End of Image Row 1 -->
 
               <!-- Start of Image Row 2 -->
-              <section class="row my-5">
-                <aside class="col-md-4">
+              <section class="row my-5 d-none">
+                <aside class="col-md-6">                  
+                  <h6 class="text-center">Team Generator</h6>
                   <img
-                    src="http://placehold.it/250x250"
-                    alt="Placeholder"
-                    class="img-thumbnail"
+                  src="./Assets/Images/Team_Generator.PNG"
+                  alt="Placeholder"
+                  class="img-thumbnail img-fluid img-responsive"
                   />
+                  <a href="https://github.com/jrkrichards/Team-Generator">Github</a>
+                  <a href="https://github.com/jrkrichards/Team-Generator">Website</a>                                       
                 </aside>
-                <aside class="col-md-4">
+                <aside class="col-md- d-none">
                   <img
                     src="http://placehold.it/250x250"
                     alt="Placeholder"
-                    class="img-thumbnail"
-                  />
-                </aside>
-                <aside class="col-md-4">
-                  <img
-                    src="http://placehold.it/250x250"
-                    alt="Placeholder"
-                    class="img-thumbnail"
+                    class="img-thumbnail img-fluid img-responsive"
+                    style="width: 400px; height: 300px;"
                   />
                 </aside>
             </section>
             <!-- End of Image Row 2 -->
 
             <!-- Start of Image Row 3 -->
-            <section class="row my-5">
-              <aside class="col-md-4">
+            <section class="row my-5 d-none">
+              <aside class="col-md-6 h-75 d-inline-block">
                 <img
                   src="http://placehold.it/250x250"
                   alt="Placeholder"
-                  class="img-thumbnail"
+                  class="img-thumbnail img-fluid img-responsive"
                 />
               </aside>
-              <aside class="col-md-4">
+              <aside class="col-md-6 h-75 d-inline-block">
                 <img
                   src="http://placehold.it/250x250"
                   alt="Placeholder"
-                  class="img-thumbnail"
+                  class="img-thumbnail img-fluid img-responsive"
                 />
-              </aside>
-              <aside class="col-md-4">
-                <img
-                  src="http://placehold.it/250x250"
-                  alt="Placeholder"
-                  class="img-thumbnail"
-                />
-              </aside>
+              </aside>              
           </section>
           <!-- End of Image Row 3 -->
 
@@ -141,6 +157,15 @@
     <!-- Start of Footer -->
     <footer id="sticky-footer" class="py-4 bg-dark text-white">
       <div class="container text-center">
+        <small>
+          <a href="https://github.com/jrkrichards">
+            <button type="button" class="btn btn-git text-center text-white"><i class="fab fa-github pr-1 text-center text-white"></i> Github</button>
+          </a>
+          <a href="https://www.linkedin.com/in/jrkrichards/">
+            <button type="button" class="btn btn-li text-center text-white"><i class="fab fa-linkedin-in pr-1 text-center text-white"></i> Linkedin</button>
+          </a>
+          <br>
+        </small>            
         <small>Copyright &copy; 2020</small>
       </div>
     </footer>

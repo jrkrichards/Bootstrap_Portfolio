@@ -6,7 +6,7 @@ The purpose of this repository is to present my portfolio of work. I utilized bo
 
 ## Website Mock
 
-Website URL: https://jrkrichards.github.io/Bootstrap_Portfolio/
+Website URL: https://jrkrichards.github.io/Portfolio/
 
 ### Full Screen:
 
